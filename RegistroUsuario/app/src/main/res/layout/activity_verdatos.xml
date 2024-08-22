@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Verdatos">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Datos del Usuario"
+        android:textAlignment="center"
+        android:textColor="#0648F0"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nro Documento:" />
+
+    <TextView
+        android:id="@+id/txtNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre(s):" />
+
+    <TextView
+        android:id="@+id/txtApel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellido(s):" />
+
+    <TextView
+        android:id="@+id/txtEm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:" />
+
+    <TextView
+        android:id="@+id/txturl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Url" />
+
+    <Button
+        android:id="@+id/btnMostrarURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar URL" />
+
+    <WebView
+        android:id="@+id/wvNav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
